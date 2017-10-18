@@ -1,13 +1,17 @@
 body{
-    padding: 1px;
+    padding:50px 1px;
+    font-family: serif;
+    line-height: 1.3em;
 }
 div{
     box-sizing: border-box;
 }
+h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
 p{
-    font-family: 'Times New Roman', serif;
     font-size: 16px;
-    line-height: 1.3em;
     margin-bottom: 5px;
 }
 a, a:hover, a:active{
@@ -22,9 +26,13 @@ hr{
     border: 0;
     height: 50px;
 }
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
 .table{
     width: 100%;
-    max-width: 1200px;
 }
 .table::after{
     content: '';
@@ -43,7 +51,7 @@ hr{
 }
 @media screen and (min-width: 992px) {
     body {
-        padding: 5px;
+        padding:50px 5px;
     }
     .table .cell{
         width: 50%;
